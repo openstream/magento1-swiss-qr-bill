@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Openstream_QrBill>
+            <version>1.0.0.</version>
+        </Openstream_QrBill>
+    </modules>
+    <global>
+        <models>
+            <openstream_qrbill>
+                <class>Openstream_QrBill_Model</class>
+            </openstream_qrbill>
+        </models>
+        <events>
+            <fooman_emailattachments_before_send_order>
+                <observers>
+                    <openstream_fooman_emailattachments_before_send_order>
+                        <class>Openstream_QrBill_Model_Observer</class>
+                        <method>attachQrBill</method>
+                    </openstream_fooman_emailattachments_before_send_order>
+                </observers>
+            </fooman_emailattachments_before_send_order>
+        </events>
+    </global>
+</config>

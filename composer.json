@@ -1,0 +1,11 @@
+{
+  "require": {
+    "php": "7.4",
+    "sprain/swiss-qr-bill": "3.2.*",
+    "dompdf/dompdf": "^2.0",
+    "symfony/validator": "^4.4",
+    "symfony/property-access": "^4.4",
+    "symfony/string": "^5.3.10",
+    "symfony/deprecation-contracts": "^2.1"
+  }
+}

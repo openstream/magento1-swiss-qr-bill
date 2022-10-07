@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Openstream_QrBill>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Openstream_QrBill>
+    </modules>
+</config>
