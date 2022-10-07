@@ -4,7 +4,7 @@ Generate a QR Bill with Magento 1 and OpenMage using https://github.com/sprain/p
 ## Installation
 
 1. Copy contents of this repository into the root of your project. If you already have `composer.json` add new dependencies from the "required" section. If you are not using modman feel free to remove `modman` file.
-2. If your Magneto installation is not using composer autoloader add the following line topmost at your `index.php`:
+2. If your Magento installation is not using composer autoloader add the following line topmost at your `index.php`:
 
 ```php
 require_once '/vendor/autoload.php';
@@ -15,4 +15,4 @@ require_once '/vendor/autoload.php';
 
 ## Configuration
 
-Proceed to `System \ Configuration \ Sales \ Sales \ Qr Bill` section of your Magneto admin interface and complete all the fields.
+Proceed to `System \ Configuration \ Sales \ Sales \ Qr Bill` section of your Magento admin interface and complete all the fields.
