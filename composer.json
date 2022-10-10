@@ -1,6 +1,6 @@
 {
   "require": {
-    "php": "7.4",
+    "php": "7.4.*",
     "sprain/swiss-qr-bill": "3.2.*",
     "dompdf/dompdf": "^2.0",
     "symfony/validator": "^4.4",
