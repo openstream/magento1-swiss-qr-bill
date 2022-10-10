@@ -41,7 +41,7 @@ final class Openstream_QrBill_Model_Bill
 
         $qrBill->setPaymentReference($this->createPaymentReferenceForOrder($order));
         $qrBill->setAdditionalInformation(
-            AdditionalInformation::create(Mage::helper('sales')->__('Order #%s', $order->getIncrementId()))
+            AdditionalInformation::create(Mage::helper('sales')->__('Order') . ' ' . $order->getIncrementId())
         );
 
         $output = new HtmlOutput($qrBill, $this->getLanguageCode($order));
